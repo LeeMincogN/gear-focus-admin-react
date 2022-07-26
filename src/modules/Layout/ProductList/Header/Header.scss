@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  padding-top: 15px;
+  background-color: #474072;
+  position: fixed;
+  color: white !important;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  left: 0;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  .header-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    span {
+      font-size: 25px;
+      padding-right: 10px;
+      margin-bottom: 7px;
+    }
+    h5 {
+      color: white;
+    }
+  }
+  .header-right span {
+    font-size: 25px;
+    margin-bottom: 7px;
+  }
+}

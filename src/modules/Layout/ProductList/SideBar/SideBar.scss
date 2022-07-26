@@ -1,0 +1,19 @@
+.sidebar {
+  width: 14%;
+  background-color: #474072;
+
+  height: 100%;
+  position: fixed;
+  z-index: 99;
+
+  padding-top: 10px;
+  color: white;
+  ul.ant-menu {
+    background-color: #474072;
+    li.ant-menu-item {
+      background-color: #474072;
+      padding: 0px;
+      margin: 0px;
+    }
+  }
+}

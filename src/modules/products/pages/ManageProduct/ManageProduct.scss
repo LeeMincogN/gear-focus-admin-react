@@ -1,0 +1,107 @@
+.main-content {
+  // background-color: #231f3a;
+  background-color: #1b1b38;
+  width: 100%;
+  color: white;
+
+  padding: 30px 30px 30px 250px;
+  height: 100%;
+  .table-content-report {
+    .ant-table-tbody > tr.ant-table-row-level-0:hover > td {
+      background: unset;
+      cursor: pointer;
+    }
+    .ant-checkbox-checked .ant-checkbox-inner {
+      background-color: unset;
+      border-color: unset;
+    }
+
+    thead[class*='ant-table-thead'] th {
+      background-color: #474072 !important;
+      color: white;
+    }
+    .ant-table-tbody {
+      background-color: #474072;
+      color: white;
+    }
+    .ant-table-tbody > tr.ant-table-row-selected > td {
+      background-color: #474072;
+      border-bottom: 1px solid #f0f0f0;
+    }
+  }
+
+  .search-products {
+    display: flex;
+    padding: 20px;
+    background: #474072;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    .ant-select {
+      background-color: #474072;
+      .ant-select-selector {
+        background-color: #474072;
+        color: white;
+      }
+    }
+    .search-item1 {
+      width: 50%;
+      input {
+        background-color: #231f3a;
+        border: none;
+        outline: none;
+      }
+    }
+    .search-item2 {
+      width: 30%;
+      margin: 0 100px;
+      .ant-select {
+        width: 100%;
+        background-color: #231f3a;
+        .ant-select-selector {
+          background-color: #231f3a;
+          .ant-select-selection-item {
+            text-align: left;
+          }
+          .ant-select-selection-item ::after {
+            color: white;
+          }
+        }
+      }
+    }
+    .search-item3 {
+      width: 20%;
+      display: flex;
+      background-color: #231f3a;
+      .ant-select {
+        width: 100%;
+        background-color: #231f3a;
+        .ant-select-selector {
+          background-color: #231f3a;
+          .ant-select-selection-item {
+            text-align: left;
+          }
+          .ant-select-selection-item ::after {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+  span.ant-page-header-heading-title {
+    color: white;
+  }
+
+  .footer-table {
+    background-color: #474072;
+    padding: 30px 30px;
+    border: 1px solid #474072;
+    box-shadow: rgba(243, 243, 244, 0.3) 0px 2px 2px 0px, rgba(255, 255, 255, 0.15) 0px 2px 6px 2px;
+    display: flex;
+    justify-content: start;
+    button {
+      background-color: #ffd700;
+      color: white;
+      margin-left: 10px;
+    }
+  }
+}
